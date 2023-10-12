@@ -14,6 +14,11 @@
 		4CBFD2232AD77A4E0057635D /* AnimationTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CBFD2222AD77A4E0057635D /* AnimationTestTests.swift */; };
 		4CBFD22D2AD77A4E0057635D /* AnimationTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CBFD22C2AD77A4E0057635D /* AnimationTestUITests.swift */; };
 		4CBFD22F2AD77A4E0057635D /* AnimationTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CBFD22E2AD77A4E0057635D /* AnimationTestUITestsLaunchTests.swift */; };
+		4CBFD23C2AD7910D0057635D /* AniOrWith.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CBFD23B2AD7910D0057635D /* AniOrWith.swift */; };
+		4CBFD23E2AD791470057635D /* TypesAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CBFD23D2AD791470057635D /* TypesAnimations.swift */; };
+		4CBFD2422AD7A02A0057635D /* Idk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CBFD2412AD7A02A0057635D /* Idk.swift */; };
+		4CBFD2452AD7A9780057635D /* EffectsLibrary in Frameworks */ = {isa = PBXBuildFile; productRef = 4CBFD2442AD7A9780057635D /* EffectsLibrary */; };
+		4CBFD2472AD868E40057635D /* stateChangeExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CBFD2462AD868E40057635D /* stateChangeExample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +49,10 @@
 		4CBFD2282AD77A4E0057635D /* AnimationTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimationTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CBFD22C2AD77A4E0057635D /* AnimationTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationTestUITests.swift; sourceTree = "<group>"; };
 		4CBFD22E2AD77A4E0057635D /* AnimationTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4CBFD23B2AD7910D0057635D /* AniOrWith.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AniOrWith.swift; sourceTree = "<group>"; };
+		4CBFD23D2AD791470057635D /* TypesAnimations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypesAnimations.swift; sourceTree = "<group>"; };
+		4CBFD2412AD7A02A0057635D /* Idk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Idk.swift; sourceTree = "<group>"; };
+		4CBFD2462AD868E40057635D /* stateChangeExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stateChangeExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CBFD2452AD7A9780057635D /* EffectsLibrary in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,6 +106,10 @@
 			children = (
 				4CBFD2112AD77A4D0057635D /* AnimationTestApp.swift */,
 				4CBFD2132AD77A4D0057635D /* ContentView.swift */,
+				4CBFD23B2AD7910D0057635D /* AniOrWith.swift */,
+				4CBFD23D2AD791470057635D /* TypesAnimations.swift */,
+				4CBFD2462AD868E40057635D /* stateChangeExample.swift */,
+				4CBFD2412AD7A02A0057635D /* Idk.swift */,
 				4CBFD2152AD77A4E0057635D /* Assets.xcassets */,
 				4CBFD2172AD77A4E0057635D /* Preview Content */,
 			);
@@ -143,6 +157,9 @@
 			dependencies = (
 			);
 			name = AnimationTest;
+			packageProductDependencies = (
+				4CBFD2442AD7A9780057635D /* EffectsLibrary */,
+			);
 			productName = AnimationTest;
 			productReference = 4CBFD20E2AD77A4D0057635D /* AnimationTest.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +232,9 @@
 				Base,
 			);
 			mainGroup = 4CBFD2052AD77A4D0057635D;
+			packageReferences = (
+				4CBFD2432AD7A9780057635D /* XCRemoteSwiftPackageReference "effects-library" */,
+			);
 			productRefGroup = 4CBFD20F2AD77A4D0057635D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -257,8 +277,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CBFD2472AD868E40057635D /* stateChangeExample.swift in Sources */,
+				4CBFD2422AD7A02A0057635D /* Idk.swift in Sources */,
+				4CBFD23E2AD791470057635D /* TypesAnimations.swift in Sources */,
 				4CBFD2142AD77A4D0057635D /* ContentView.swift in Sources */,
 				4CBFD2122AD77A4D0057635D /* AnimationTestApp.swift in Sources */,
+				4CBFD23C2AD7910D0057635D /* AniOrWith.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -582,6 +606,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4CBFD2432AD7A9780057635D /* XCRemoteSwiftPackageReference "effects-library" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/GetStream/effects-library";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4CBFD2442AD7A9780057635D /* EffectsLibrary */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4CBFD2432AD7A9780057635D /* XCRemoteSwiftPackageReference "effects-library" */;
+			productName = EffectsLibrary;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 4CBFD2062AD77A4D0057635D /* Project object */;
 }

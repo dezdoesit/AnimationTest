@@ -6,16 +6,17 @@
 //
 
 import SwiftUI
+import EffectsLibrary
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
+        Text("Animations in Swift!")
+            .frame(minWidth: 100, minHeight: 100)
+            .font(.largeTitle)
+            .fontWeight(.bold)
+            .padding()
+        ConfettiView()
+            .padding()
     }
 }
 
